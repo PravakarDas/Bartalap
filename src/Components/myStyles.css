@@ -9,7 +9,13 @@
     display: flex;
     flex: 0.3;
     flex-direction: column;
-}   
+} 
+.chat-area-container {
+    /* background-color: #FBFBFB; */
+    display: flex;
+    flex-direction: column;
+    flex: .7;
+}  
 .work-area-container {
     background-color: aliceblue;
     flex: 0.7;
@@ -77,3 +83,22 @@
     font-size: 16px;
     font-weight: bold;
 }
+
+.chat-area-header {
+    background-color: #FBFBFB;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin: 5px;
+}
+.message-container {
+    background-color: blue;
+    flex: 1;
+}
+.text-input-container {
+    background-color: green;
+    flex: 0.1;
+}
+
+

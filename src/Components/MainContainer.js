@@ -8,6 +8,8 @@ const MainContainer = () => {
         <div className='main-container'>
             <Sidebar />
             <WorkArea />
+            
+            
         </div>
     );
 };
